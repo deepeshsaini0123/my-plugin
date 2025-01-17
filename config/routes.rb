@@ -6,3 +6,4 @@ MyPluginModule::Engine.routes.draw do
 end
 
 Discourse::Application.routes.draw { mount ::MyPluginModule::Engine, at: "my-plugin" }
+Discourse::Application.routes.draw { mount ::MyPluginModule::Engine, at: "my-plugin" }
